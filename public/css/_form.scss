@@ -1,0 +1,353 @@
+.overlay {
+  width: 100%;
+  height: 100%;
+  background: rgba(51, 51, 51, 0.78);
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: none;
+  z-index: 1031;
+}
+
+.block-popup {
+  font-family: "BebasNeue";
+  padding: 4% 22%;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+  position: fixed;
+  top: 0;
+  left: 0;
+  transition: 0.8s;
+  z-index: 1032;
+  display: none;
+}
+
+.block-popup span {
+  position: absolute;
+  top: 0;
+  right: 5px;
+  cursor: pointer;
+  font-size: 30px;
+}
+
+
+.overlayS {
+  width: 100%;
+  height: 100%;
+  background: rgba(51, 51, 51, 0.78);
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: none;
+  z-index: 1031;
+}
+
+.block-popupS {
+  font-family: "BebasNeue";
+  padding: 4% 22%;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+  position: fixed;
+  top: 0;
+  left: 0;
+  transition: 0.8s;
+  z-index: 1032;
+  display: none;
+}
+
+.block-popupS span {
+  position: absolute;
+  top: 0;
+  right: 5px;
+  cursor: pointer;
+  font-size: 30px;
+}
+
+.cosmForm {
+  .block-popup {
+    font-size: 130%;
+  }
+
+  .question {
+    font-size: 110%;
+    border-bottom: solid 2px $beige;
+  }
+
+
+  .form_radio input[type=radio] {
+    display: none;
+  }
+
+  .form_radio input[type=checkbox] {
+    display: none;
+  }
+
+  .form_radio label {
+    display: inline-block;
+    cursor: pointer;
+    position: relative;
+    padding-left: 25px;
+    margin-right: 0;
+    line-height: 18px;
+    user-select: none;
+  }
+
+  .form_radio label:before {
+    content: "";
+    display: inline-block;
+    width: 18px;
+    height: 18px;
+    position: absolute;
+    left: 0;
+    padding-top: 2px;
+    bottom: 1px;
+  }
+
+
+  .form_radio input[type=radio]+label:before {
+    background: url(/images/radio2.png) 0 0 no-repeat;
+  }
+
+  /* Checked */
+  .form_radio input[type=radio]:checked+label:before {
+    background: url(/images/radio1.png) 0 0 no-repeat;
+  }
+
+
+  .form_radio input[type=checkbox]+label:before {
+    background: url(/images/check.png) 0 0 no-repeat;
+  }
+
+  /* Checked */
+  .form_radio input[type=checkbox]:checked+label:before {
+    background: url(/images/check2.png) 0 0 no-repeat;
+  }
+
+  /* Hover */
+  .form_radio label:hover:before {
+    filter: brightness(130%);
+  }
+
+  /* Disabled */
+  .form_radio input[type=radio]:disabled+label:before,
+  .form_radio input[type=checkbox]:disabled+label:before {
+    filter: grayscale(100%);
+  }
+
+  #nextButton {}
+}
+
+#myForm {
+  .hidden {
+    display: none;
+  }
+}
+
+button,
+select {
+  text-transform: none;
+}
+
+#container {
+  padding: 5% 0% 0% 0%;
+  background-color: #2b2b2bf5;
+  border: solid 3px #474544;
+  width: 840px;
+  position: relative;
+  overflow: auto;
+  max-height: 84vh;
+}
+
+form {
+  padding: 0 37.5px;
+  margin: 20px 0 50px 0;
+
+  h1 {
+    color: $beige;
+    font-size: 32px;
+    font-weight: 700;
+    letter-spacing: 7px;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: "RegularCyrillic";
+  }
+}
+
+
+
+.underline {
+  border-bottom: solid 2px $beige;
+  margin: -0.512em auto;
+  width: 80px;
+}
+
+
+.subject select {
+  background-color: #2b2b2bf5;
+}
+
+input[type='text'],
+input[type='date'],
+input[type='email'],
+input[type='tel'],
+input[type='password'],
+select,
+textarea {
+  background: none;
+  border: none;
+  border-bottom: solid 2px $beige;
+  color: #a59d8d;
+  font-size: 1.4em;
+  font-weight: 400;
+  letter-spacing: 1px;
+  margin: 0em 0 0.8em 0;
+  padding: 0 0 0.2em 0;
+  text-transform: uppercase;
+  width: 100%;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  -o-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  -ms-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.error {
+  border-bottom: 3px solid rgb(163, 38, 31) !important;
+}
+.errorT {
+  text-align: center;
+  color:  rgb(230, 85, 77);
+  font-variant: small-caps;
+  font-size: 1.6rem;
+  margin-bottom: 0;
+}
+
+input[type='text']:focus,
+input[type='date']:focus,
+input[type='email']:focus,
+input[type='tel']:focus,
+input[type='password']:focus,
+select:focus {
+  outline: none;
+  padding: 0 0 0.875em 0;
+  color: white;
+}
+
+.services, .cosmetics {
+
+  select {
+    background: rgb(22, 22, 22);
+    margin: 0em 0 0.4em 0;
+    padding: 0 0 0.1em 0;
+  }
+
+  select:focus {
+    background: rgb(22, 22, 22);
+    outline: none;
+    padding: 0 0 0.2em 0;
+    color: white;
+ 
+  }
+}
+
+.message {
+  float: none;
+}
+
+select {
+  background: url('https://cdn4.iconfinder.com/data/icons/ionicons/512/icon-ios7-arrow-down-32.png') no-repeat right;
+  outline: none;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+}
+
+select::-ms-expand {
+  display: none;
+}
+
+.subject {
+  width: 100%;
+}
+
+.telephone {
+  width: 100%;
+}
+
+::-webkit-input-placeholder {
+  color: #a59d8d;
+}
+
+:-moz-placeholder {
+  color: #a59d8d;
+  opacity: 1;
+}
+
+::-moz-placeholder {
+  color: #a59d8d;
+  opacity: 1;
+}
+
+:-ms-input-placeholder {
+  color: #a59d8d;
+}
+
+
+#form_button {
+  background: none;
+  border: solid 2px $beige;
+  color: #e1d5bf;
+  cursor: pointer;
+  display: inline-block;
+  font-family: 'Helvetica', Arial, sans-serif;
+  font-size: 0.875em;
+  font-weight: bold;
+  outline: none;
+  padding: 2% 3%;
+  text-transform: uppercase;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  -ms-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+#form_button:hover {
+  background: #474544;
+  color: #F2F3EB;
+}
+
+@media screen and (max-width: 768px) {
+  #container {
+    margin: 20px auto;
+    width: 95%;
+  }
+}
+
+
+@media screen and (max-width: 420px) {
+  .entryForm {
+    h1 {
+      font-size: 18px;
+    }
+
+    #form_button {
+      padding: 2% 2%;
+    }
+
+    .underline {
+      display: none;
+    }
+
+    input[type='text'],
+    select {
+      font-size: 0.875em;
+    }
+  }
+}

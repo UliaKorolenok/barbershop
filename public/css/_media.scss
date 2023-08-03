@@ -1,0 +1,590 @@
+@media (max-width: 1200px) {
+
+    .collapse {
+        margin-left: 13%;
+    }
+
+    .mainTitle {
+        padding: 20% 0% 5% 0% !important;
+    }
+
+    .serviceBlock {
+        background: #2b2b2be9 !important;
+        margin: 0;
+        padding: 5% 10% !important;
+
+        .title h1 {
+            font-size: 350%;
+            margin: 5% 0% 5% 0% !important;
+        }
+
+        .col-11 {
+            margin-top: 5%;
+        }
+
+        .btn-header {
+            width: 35% !important;
+        }
+
+        .display-5 {
+            font-size: 160%;
+        }
+
+        .col-5 {
+            width: 70%;
+        }
+
+        .col-1 {
+            width: 25%;
+
+        }
+    }
+
+    .masterBlock {
+        padding: 0% 10%;
+
+        .slliderMaster {
+            display: none;
+        }
+
+        .masterText {
+            width: 200%;
+        }
+
+        .mt-5 {
+            margin-top: 0 !important;
+        }
+
+        .master {
+            text-align: justify;
+            font-size: 160% !important;
+            margin-top: 10%;
+        }
+
+        .masterTitle {
+            h1 {
+                font-size: 350%;
+            }
+        }
+
+        .sliderPhone {
+            display: block !important;
+        }
+
+        .swiper-slide {
+            width: 18rem !important;
+
+            .img {
+                width: 18rem !important;
+                height: 23rem;
+                background-position: center;
+                background-size: 100%;
+            }
+
+        }
+    }
+
+    .aboutBlock {
+        background-size: 130%;
+
+        .col-7 {
+            width: 95%;
+            text-align: justify;
+        }
+
+        .beigeColor {
+            font-size: 350%;
+        }
+
+        h1 {
+            font-size: 160%;
+            margin-bottom: 5% !important;
+        }
+
+        .background2 {
+            padding: 10% 12% 10% 10%;
+        }
+
+        .btn-header {
+            width: 50% !important;
+        }
+    }
+
+    .productBlock {
+        padding: 10% 10% 15% 10%;
+        background-size: 100% !important;
+        background: url(/images/back4.jpg) no-repeat;
+
+        .beigeColor {
+            text-align: center;
+            margin-bottom: 6% !important;
+            font-size: 350% !important;
+        }
+
+        h1 {
+            text-align: justify;
+            font-size: 110%;
+        }
+
+        .btn-header {
+            width: 35% !important;
+            margin-bottom: 25% !important;
+        }
+    }
+
+    .contactBlock {
+        padding: 2% 10% 10% 10%;
+
+        .map {
+            display: none;
+        }
+
+        .beigeColor {
+            font-size: 350%;
+        }
+
+        .contactText {
+            width: 100%;
+        }
+
+        .mb-5 {
+            margin: 7% 0% !important;
+        }
+
+        .display-5 {
+            font-size: 200% !important;
+        }
+
+
+
+    }
+
+}
+
+@media (max-width: 550px) {
+    .errorPage {
+        .fourText {
+            font-size: 9rem;
+            padding-top: 20%;
+
+        }
+
+        .text {
+            font-size: 3rem;
+            padding-bottom: 15%;
+
+        }
+    }
+
+    .background {
+        background-size: 175%;
+    }
+
+    .navbar {
+        padding-right: 10%;
+        padding-left: 5%;
+    }
+
+    .mainTitle {
+        padding: 30% 0% 5% 0% !important;
+
+        h1 {
+            font-size: calc(1.625rem + 8vw);
+        }
+    }
+
+    .button {
+        width: 40% !important;
+        margin-bottom: 15% !important;
+    }
+
+    .serviceBlock {
+        background: #2b2b2be9 !important;
+
+        margin: 0;
+        padding: 5% 10% !important;
+
+        .serviceText .row {
+            padding: 0 !important;
+            margin: 2% 2% 2% 2% !important;
+        }
+
+        .title h1 {
+            font-size: 300%;
+            margin: 5% 0% 10% 0% !important;
+        }
+
+        .col-11 {
+            margin-top: 8%;
+
+        }
+
+        .btn-header {
+
+            width: 55% !important;
+
+        }
+
+        .display-5 {
+            font-size: 110%;
+        }
+
+        .col-5 {
+            width: 70%;
+        }
+
+        .col-1 {
+            width: 25%;
+
+        }
+
+
+
+    }
+
+    .services,
+    .reviews {
+        .bgMaster {
+            padding: 5%;
+        }
+
+        .col-6 {
+            padding-bottom: 8%;
+        }
+    }
+
+
+    .reviews {
+        .colTit {
+            width: 100%;
+            padding-top: 22%;
+        }
+        .form {
+            margin: 0 0%;
+
+            .rating-area {
+                width: 65vw;
+            }
+        }
+
+        form {
+            padding: 0;
+        }
+
+        .btn-header {
+            width: auto;
+        }
+
+        .col-3 {
+            width: 100%;
+        }
+    }
+
+    .masters,
+    .services {
+        .col-7 {
+            width: 100%;
+            padding-top: 22%;
+        }
+
+        .col-1 {
+            width: 30%;
+        }
+
+        .col-2 {
+            width: 70%;
+        }
+
+        .col-6,
+        .col-4,
+        .col-8 {
+            width: 100%;
+        }
+
+        .col-4 {
+            text-align: center;
+        }
+
+        .masterMark {
+            padding: 0%;
+
+        }
+
+        img {
+            width: 60%;
+        }
+    }
+
+    .masterBlock {
+        background: url(/images/masterBlock.png);
+        padding: 10%;
+
+        .col-5 {
+            width: 100%;
+        }
+
+        .slliderMaster {
+            display: none;
+        }
+
+        .masterText {
+            width: 200%;
+
+        }
+
+        .mt-5 {
+            margin-top: 0 !important;
+        }
+
+        .master {
+            text-align: justify;
+            font-size: 110% !important;
+            margin-top: 15%;
+        }
+
+        .btn-header {
+            width: 39% !important;
+        }
+
+        .masterTitle {
+            h1 {
+                font-size: 48px;
+            }
+        }
+
+
+
+    }
+
+    .aboutBlock {
+        background-size: 200%;
+
+        .col-7 {
+            width: 110%;
+            text-align: justify;
+        }
+
+        .beigeColor {
+            font-size: 48px;
+        }
+
+        h1 {
+            font-size: 110%;
+            margin-bottom: 5% !important;
+        }
+
+        .background2 {
+            padding: 10% 12% 10% 10%;
+        }
+
+        .btn-header {
+            width: 55% !important;
+        }
+    }
+
+    .productBlock {
+        padding: 10% 10% 15% 10%;
+        background-size: 100% !important;
+        background: url(/images/back41.png) no-repeat;
+
+        .beigeColor {
+            text-align: center;
+            margin-bottom: 6% !important;
+            font-size: 48px !important;
+        }
+
+        h1 {
+            text-align: justify;
+            font-size: 110%;
+        }
+
+        .btn-header {
+            width: 35% !important;
+            margin-bottom: 25% !important;
+        }
+    }
+
+    .contactBlock {
+        padding: 2% 10% 10% 10%;
+
+        .map {
+            display: none;
+        }
+
+        .beigeColor {
+            font-size: 48px;
+        }
+
+        .contactText {
+            width: 100%;
+        }
+
+        .mb-5 {
+            margin: 7% 0% !important;
+        }
+
+        .display-5 {
+            font-size: 130% !important;
+        }
+
+        .btn-header {
+            width: 35% !important;
+        }
+
+    }
+}
+
+@media (max-width: 1250px) {
+    .cosmetics {
+        .background2 {
+
+            background: url(/images/backCosm23.png) no-repeat;
+            background-size: 100%;
+
+        }
+    }
+}
+
+@media (max-width: 625px) {
+    .cosmetics {
+        .background2 {
+
+            background: url(/images/backCosm5.png) no-repeat;
+            background-size: 100%;
+
+        }
+
+        .col-4 {
+            width: 100%;
+            margin-bottom: 10%;
+        }
+
+        .col-6 {
+            width: 100%;
+            margin-bottom: 10%;
+        }
+
+        .headerCosm {
+            padding: 10% 10%;
+            text-align: center;
+
+            img {
+                width: 50% !important;
+            }
+        }
+
+        .bg {
+            padding: 10%;
+        }
+
+        .text {
+            padding: 0;
+            text-align: center;
+        }
+
+        .product1 {
+            margin: 0;
+            padding-bottom: 30%;
+        }
+
+        .product2 {
+            margin: 0;
+        }
+    }
+
+}
+
+@media (max-width:480px) {
+    .cosmetics {
+        .background2 {
+
+            background: url(/images/backCosm122.png) no-repeat;
+            background-size: 100%;
+
+        }
+
+        .col-4 {
+            width: 100%;
+            margin-bottom: 10%;
+        }
+
+        .col-6 {
+            width: 100%;
+            margin-bottom: 10%;
+        }
+
+        .headerCosm {
+            padding: 10% 10%;
+            text-align: center;
+
+            img {
+                width: 50% !important;
+            }
+        }
+
+        .bg {
+            padding: 10%;
+        }
+
+        .text {
+            padding: 0;
+            text-align: center;
+        }
+
+        .product1 {
+            margin: 0;
+        }
+
+        .product2 {
+            margin: 0;
+        }
+    }
+
+}
+
+@media (max-width: 390px) {
+
+    .cosmetics {
+        .background2 {
+            background: url(/images/backCosm13.png) no-repeat;
+            background-size: 100%;
+
+        }
+
+        .col-4 {
+            width: 100%;
+            margin-bottom: 10%;
+        }
+
+        .col-6 {
+            width: 100%;
+            margin-bottom: 10%;
+        }
+
+        .headerCosm {
+            padding: 10% 10%;
+            text-align: center;
+
+            img {
+                width: 50% !important;
+            }
+        }
+
+        .bg {
+            padding: 10%;
+        }
+
+        .text {
+            padding: 0;
+            text-align: center;
+        }
+
+        .product1 {
+            margin: 0;
+        }
+
+        .product2 {
+            margin: 0;
+        }
+    }
+}

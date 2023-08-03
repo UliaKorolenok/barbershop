@@ -1,0 +1,299 @@
+del {
+  color: rgba(255, 255, 255, 0.852);
+}
+
+.profile {
+  padding: 10% 0;
+}
+.profile .profileBox {
+  padding: 4% 4% 5% 4%;
+}
+
+th,
+td {
+  text-align: center;
+}
+th a,
+td a {
+  text-decoration: none;
+}
+
+td a:hover {
+  color: #A59982 !important;
+  font-size: 160% !important;
+}
+
+.countMarks {
+  margin-bottom: 3%;
+  padding: 1% 3%;
+  background-color: #706551;
+  top: 5px;
+  border-radius: 50%;
+}
+
+.adminProfile {
+  padding: 10% 3.4%;
+}
+.adminProfile .profileBox {
+  padding: 4% 4% 5% 4%;
+}
+.adminProfile .error {
+  border-bottom: 3px solid rgb(163, 38, 31) !important;
+}
+.adminProfile .highlight {
+  color: yellow;
+}
+.adminProfile input[type=search] {
+  font-size: 1em;
+}
+
+#serv img, #mast img, #cos img {
+  padding: auto;
+  width: 80%;
+}
+#serv thead th:nth-child(1), #mast thead th:nth-child(1), #cos thead th:nth-child(1) {
+  width: 15%;
+}
+#serv thead th:nth-child(2), #mast thead th:nth-child(2), #cos thead th:nth-child(2) {
+  width: 30%;
+}
+#serv thead th:nth-child(3), #mast thead th:nth-child(3), #cos thead th:nth-child(3) {
+  width: 30%;
+}
+#serv textarea, #mast textarea, #cos textarea {
+  height: 15vh;
+}
+
+.profile {
+  padding: 10% 3.4%;
+}
+.profile .cardBack {
+  background: url(/images/scratches.png);
+  background-size: 100%;
+}
+.profile .cardBack span:hover {
+  font-size: 1.5rem;
+}
+.profile .card-body {
+  margin: 10% 2% 0% 2%;
+  background-color: #706551;
+}
+.profile .card-body .display-6 {
+  font-size: 2.5rem;
+}
+.profile .padd {
+  padding: 4%;
+}
+.profile .card-title {
+  font-size: 1.6rem;
+}
+.profile .card-text {
+  font-family: "Arial Narrow", sans-serif;
+  font-size: 1.2rem;
+  text-align: justify;
+}
+.profile img {
+  width: 100%;
+}
+.profile .col-8 {
+  padding-left: 0.4vh;
+  padding-right: 0.3vh;
+}
+.profile .col-4 {
+  padding: 5px;
+}
+
+input[type=file], input[type=number] {
+  background: none;
+  border: none;
+  border-bottom: solid 2px #A59982;
+  color: #a59d8d;
+  font-size: 1.1em;
+  font-weight: 200;
+  letter-spacing: 1px;
+  margin: 0em 0 0.8em 0;
+  padding: 0 0 0.05em 0;
+  text-transform: uppercase;
+  width: 100%;
+  -webkit-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  -o-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.backgr {
+  background: url(/images/back.jpg) repeat-y;
+  background-size: 100%;
+}
+
+.profile,
+.adminProfile {
+  font-family: Montserrat !important;
+}
+.profile .button,
+.adminProfile .button {
+  width: 20% !important;
+  padding: 0.7% !important;
+  margin: 2% 0 !important;
+  border-width: 2px !important;
+  border-color: #A59982 !important;
+  font-size: 90%;
+}
+.profile .text-justify,
+.adminProfile .text-justify {
+  font-size: 80%;
+}
+.profile .profileBox,
+.adminProfile .profileBox {
+  background-color: rgba(43, 43, 43, 0.9607843137);
+  border-right: 5px solid #7f735b;
+}
+.profile select,
+.profile input,
+.profile input[type=file],
+.profile input[type=number],
+.profile textarea,
+.adminProfile select,
+.adminProfile input,
+.adminProfile input[type=file],
+.adminProfile input[type=number],
+.adminProfile textarea {
+  background: none;
+  border: none;
+  border-bottom: solid 2px #A59982;
+  color: #a59d8d;
+  font-size: 0.7em;
+  font-weight: 200;
+  letter-spacing: 1px;
+  margin: 0em 0 0.8em 0;
+  padding: 0 0 0.05em 0;
+  text-transform: uppercase;
+  width: 100%;
+  -webkit-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  -o-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+.profile textarea,
+.adminProfile textarea {
+  height: 30vh;
+}
+.profile select:focus,
+.profile input:focus,
+.profile textarea:focus,
+.adminProfile select:focus,
+.adminProfile input:focus,
+.adminProfile textarea:focus {
+  outline: none;
+  padding: 0 0 0.4em 0;
+  color: white;
+  background-color: #534b3b;
+}
+.profile .box,
+.adminProfile .box {
+  padding: 2%;
+  border: 2px solid #706551;
+}
+.profile .tablinks,
+.adminProfile .tablinks {
+  text-decoration: none;
+  font-size: 140%;
+  margin: 5% 5% 5% 0%;
+  color: white !important;
+}
+.profile .tablinks:hover,
+.adminProfile .tablinks:hover {
+  color: #A59982;
+}
+.profile .tablinks.active,
+.adminProfile .tablinks.active {
+  border-left: 5px solid #706551;
+  padding: 0 0 0 1%;
+}
+.profile .tabcontent,
+.adminProfile .tabcontent {
+  margin: 2%;
+  font-size: 110%;
+}
+.profile #schedule .col-2,
+.adminProfile #schedule .col-2 {
+  padding: 0 2% 0 0;
+}
+.profile .sep,
+.adminProfile .sep {
+  border-left: 2px solid #706551;
+}
+.profile .tabcontent h4,
+.adminProfile .tabcontent h4 {
+  margin-bottom: 2%;
+  font-size: 120%;
+}
+.profile .tabcontent h7,
+.adminProfile .tabcontent h7 {
+  font-size: 72%;
+}
+.profile #discount .none,
+.adminProfile #discount .none {
+  display: none;
+}
+.profile #discount .allCount,
+.adminProfile #discount .allCount {
+  margin-top: 6%;
+}
+.profile #discount .inf,
+.adminProfile #discount .inf {
+  font-size: 85%;
+  text-align: center;
+}
+.profile #discount p,
+.adminProfile #discount p {
+  font-size: 110%;
+}
+
+@media (max-width: 550px) {
+  .profile {
+    padding-top: 25%;
+  }
+  .profile .tablinks {
+    font-size: 120%;
+  }
+  .profile .col-3,
+.profile .col-4, .profile .col-6 {
+    width: 100%;
+  }
+  .profile img {
+    width: 40%;
+  }
+  .profile .col-2 {
+    width: 40%;
+  }
+  .profile .text-right {
+    text-align: justify !important;
+  }
+  .profile .col-9 {
+    width: 100%;
+  }
+  .profile .tb {
+    width: 60vw;
+  }
+  .profile .mt-5 {
+    margin-top: 3% !important;
+  }
+  .profile .mb-5 {
+    margin-bottom: 3% !important;
+  }
+  .profile .col-8 {
+    width: 100%;
+  }
+  .profile .my-auto {
+    text-align: center;
+    padding-bottom: 5%;
+  }
+  .profile .table {
+    display: block;
+  }
+}

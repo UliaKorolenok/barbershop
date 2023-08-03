@@ -1,0 +1,32 @@
+footer {
+	border-top: 0.7vh solid darken($color: $beige, $amount: 20);
+    background-color: #222222;
+    font-family: "BebasNeue";
+    font-size: 2vh;
+
+    hr {
+        width: 60px;
+        background-color: #7c4dff;
+        height: 2px;
+    }
+
+    .copy {
+        background-color: rgba(0, 0, 0, 0.2);
+    }
+
+    .nav-link a {
+        color: $light  !important;
+    }
+
+    a {
+        color: $light  !important;
+    }
+
+    .svg-inline--fa {
+        margin-right: 3%;
+    }
+    p{
+        font-size: 1.125rem;
+    }
+
+}
